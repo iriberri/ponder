@@ -9,7 +9,10 @@ matrix:
       compiler: clang
     - os: linux
       compiler: gcc
-      
+
+env:
+  global:
+  - CMAKE_CXX_STANDARD=14
 install:
   - echo Lang:$LANG. OS:$TRAVIS_OS_NAME. CC:$CC.
   - uname -a
