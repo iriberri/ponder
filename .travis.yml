@@ -5,10 +5,6 @@ dist: trusty
 
 matrix:
   include:
-    - os: osx
-      osx_image: xcode8.3   # OS X 10.12
-    - os: osx
-      osx_image: xcode9.2   # OS X 10.12
     - os: linux
       compiler: clang
     - os: linux
